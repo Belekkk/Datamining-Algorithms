@@ -35,7 +35,7 @@ for k, col in zip(range(n_clusters), colors):
     ax.plot(cluster_center[0], cluster_center[1], 'o', markerfacecolor=col,
         markeredgecolor='k', markersize=6) # affichage des centroïdes
 
-ax.set_title("Exemple d'exécution de l'algorithme des KMeans avec sklearn")
+ax.set_title("Classification avec l'algorithme des KMeans de sklearn")
 ax.set_xticks(())
 ax.set_yticks(())
 # Affichage de l'inertie
