@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.datasets.samples_generator import make_blobs
 
 ## Génération d'un jeu de données
-np.random.seed(0) # permet d'avoir à chaque fois les mêmes données générées
+np.random.seed(0) # Permet d'avoir à chaque fois les mêmes données générées
 
 # Définition de nos centroïdes
 centers = [[1, 1], [-1, -1], [1, -1]]
